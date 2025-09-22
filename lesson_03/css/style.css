@@ -68,3 +68,12 @@ p.text-travel {
 	color: green;
 }
 
+.histori-text + p {
+	color: rgb(89, 179, 89);
+
+}
+
+.histori-h3 ~ p {
+	color: blueviolet;
+
+}
