@@ -1,0 +1,141 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic%20SC:wght@400;700&display=swap');
+
+.title-h1 {
+	font-family: "mauryssel", serif;
+	color: rgb(46, 6, 156);
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 2px 4px 3px pink;
+}
+
+li {
+	font-size: 20px;
+	line-height: 1.3;
+	color: rgb(15, 49, 92);
+}
+
+h2{
+	color: green;
+	font-size: 35px;
+	line-height: 1.5;
+}
+.description {
+font-family: "pacifico", serif;
+	text-align: justify;
+	font-size: 30px;
+	color: rgb(221, 160, 160);
+	text-shadow: 1px 1px 2px black;
+	word-spacing:  15px;
+}
+
+.logic {
+	
+	text-align: right;
+	text-decoration: line-through;
+	text-decoration-color: rgba(255, 0, 0, 0.411);
+}
+.logic-h3 {
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+	color: rgb(165, 42, 144);
+	font-weight: 900;
+}
+.art {
+	text-decoration: underline;
+	text-align: center;
+}
+.art-h3 {
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+	color: brown;
+	font-weight: 800;
+}
+.skills {
+	white-space: nowrap;
+	text-decoration: overline;
+	text-decoration-style: dashed;
+	text-align: right;
+	color: rgb(1, 88, 61);
+}
+.skills-h3 {
+	font-family: "Amatic SC", serif;
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+	color: brown;
+	font-weight: 700;
+}
+.concentration {
+	text-decoration: overline;
+	text-decoration-style: dotted;
+	text-align: left;/*можна left не писати бо (text-align: left;) за замовченням */
+	color: rgb(124, 124, 2);
+}
+.concentration-h3 {
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+	color: brown;
+	font-weight: 600;
+}
+
+.motivation {
+	
+	text-align: right;
+}
+.motivation-h3 {
+	text-decoration: underline;
+	text-decoration-style: double;
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+	color: brown;
+	font-weight: 500;
+}
+.responsibility {
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: blue;
+	text-align: right;
+}
+.responsibility-h3 {
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+	color: brown;
+	font-weight: 400;
+}
+
+.self-esteem-h3 {
+	font-family: "Amatic SC", serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+	color: brown;
+	
+}
+
+.team-h3 {
+	
+	text-transform: lowercase;
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+	color: brown;
+	
+}
+
+.understanding-h3 {
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+	color: brown;
+	
+}
