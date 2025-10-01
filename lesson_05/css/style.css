@@ -1,0 +1,67 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500;700;800&display=swap');
+
+
+.section_choose {
+    max-width: 1180px;
+    margin: 0 auto;
+    
+}
+
+.tittle {
+    text-align: center;
+    margin-top: 82px ;
+    margin-bottom: 72px;
+    font-family: Lato, serif;
+
+    font-size: 32px;
+    line-height: 1.2;
+
+}
+.choose_items {
+    font-size: 0;
+    margin-left: -34px;
+    margin-right: -34px;
+}
+
+.choose_item {
+    padding-left: 34px;
+     padding-right: 34px;
+    display: inline-block;
+    width: 33.333%;
+    vertical-align: text-top;
+    margin-bottom: 68px;
+}
+
+.choose_content {
+ color:  #7E7F7C;
+font-size: 16px;
+text-align: center;
+font-family: Lato;
+line-height: 1.25; /* 20/16 */
+}
+
+.choose_icon {
+margin-bottom: 24px;
+}
+
+.choose_tittle {
+    color: #2F302C;
+    margin-bottom: 24px;
+    font-family: Lato;
+    font-size: 16px;
+
+    
+}
+
+.choose_text {
+         margin: 0;
+        font-size: 16px;
+         }
+
+        a {
+            background-color: rgb(29, 6, 33);
+            font-size: 30px;
+            color: rgb(237, 237, 237);
+            text-decoration: dashed;
+        }

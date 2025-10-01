@@ -1,0 +1,44 @@
+.blok {
+    display: block;
+    background-color: rgb(118, 118, 211);
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: rgb(105, 157, 195);
+}
+
+.inline {
+ display: inline;
+  background-color: rgb(105, 157, 195);
+}
+
+.width-height {
+    width: 100px;
+    height: 150px;
+    background-color: green;
+}
+
+.max-width {
+    background-color: rgb(86, 52, 52);
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+.min-width {
+    background-color: rgb(205, 115, 115);
+    margin-bottom: 20px;
+    min-width: 300px;
+}
+
+.min-height {
+    background-color: rgb(115, 132, 205);
+    margin-bottom: 20px;
+    min-height: 80px;
+}
+
+.max-height {
+    background-color: rgb(158, 64, 175);
+    margin-bottom: 20px;
+    max-height: 300px;
+}
