@@ -1,0 +1,270 @@
+h2 {
+    text-align: center;
+}
+
+.block {
+    text-align: center;
+   
+}
+
+.block_1 {
+    vertical-align: text-top;
+    display: inline-block;
+    margin-right: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 20px;
+    border: 10px solid blue;
+   
+    
+}
+
+.block_2 {
+    display: inline-block;
+    margin-right: 25px;
+    width: 200px;
+        height: 200px;
+        background-color: green;
+        margin-bottom: 20px;
+        border: 10px dotted blue;
+     
+        vertical-align: text-top;
+}
+
+.block_3 {
+    vertical-align: text-top;
+display: inline-block;
+    margin-right: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 20px;
+    border: 10px dashed blue ;
+  
+}
+
+.block_4 {
+    vertical-align: text-top;
+    display: inline-block;
+        margin-right: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 20px;
+
+border: 10px double blue;
+}
+    
+
+.block_5 {width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 20px;
+border: 10px solid transparent;
+vertical-align: text-top;
+    display: inline-block;
+}
+
+.block_6 {width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 20px;
+    border-top: 30px solid #450000;
+    border-right: 20px dashed rgb(136, 217, 142);
+    border-bottom: 30px dotted rgb(255, 0, 85);
+    border-left: 10px double rgb(6, 0, 128);
+margin: 0 auto;
+}
+
+.block_7 {
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 50px;
+    outline: 10px solid rgb(0, 76, 255);
+    outline-offset: 10px;}
+
+.block_8 {width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 20px;
+border-radius: 20px 50px 5px 50px;
+    border: 5px solid green;
+    outline: 5px solid red;
+}
+
+.block_9 {width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 20px;
+box-shadow: inset 4px 4px 4px 12px #d77777;}
+
+.block_10 {  width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 40px;
+box-shadow:  4px 4px 4px 12px #d77777;}
+
+
+
+
+
+
+.box_1 {
+    opacity: 0;
+    vertical-align: text-top;
+    display: inline-block;
+    margin-right: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 20px;}
+
+.box_2 {
+    opacity: 0.5;
+    vertical-align: text-top;
+    display: inline-block;
+    margin-right: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 20px;}
+
+.box_3 {
+    opacity: 1;
+    vertical-align: text-top;
+    display: inline-block;
+    margin-right: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 20px;}
+
+        .box_4 {
+            visibility: visible;
+            vertical-align: text-top;
+            display: inline-block;
+            margin-right: 25px;
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            margin-bottom: 20px;
+        }
+
+                 .box_5 {
+                     visibility: visible;
+                     vertical-align: text-top;
+                     display: inline-block;
+                     margin-right: 25px;
+                     width: 200px;
+                     height: 200px;
+                     background-color: green;
+                     margin-bottom: 20px;
+                 }
+
+                .box_4:hover {
+                  
+                    color: rgb(255, 255, 255);
+                    visibility: hidden;
+                }
+
+                         
+
+.background-image{
+    background-color: rgba(0, 255, 255, 0.508);
+background-image: url(../img/box.png);
+    height: 200px;
+}
+ h2 {
+    color: rgb(122, 255, 21);
+    background-color: rgba(34, 34, 39, 0.543);
+ }
+
+.background-image1 {
+    
+    background-image: url(../img/planet.png);
+    background-repeat: no-repeat;
+     height: 100px;
+}
+
+.background-repeat-x {
+  
+    background-image: url(../img/planet.png);
+    background-repeat: repeat-x;
+    height: 100px;
+   
+}
+
+.background-repeat-y {
+  
+    background-image: url(../img/planet.png);
+    background-repeat: repeat-y;
+    height: 300px;
+    
+}
+
+.background-image1-right {
+background-image: url(../img/planet.png);
+height: 120px;
+background-repeat: no-repeat;
+background-position: right;
+
+}
+
+.background-image1-center {
+    background-image: url(../img/planet.png);
+        height: 120px;
+        background-repeat: no-repeat;
+        background-position: center;
+
+}
+
+.background-image1-left {
+    background-image: url(../img/planet.png);
+        height: 120px;
+        background-repeat: no-repeat;
+        background-position: left;
+
+}
+
+.background-imag {
+    background-image: url(../img/planet.png);
+        height: 120px;
+        background-repeat: no-repeat;
+        background-position: 60px 20px;
+
+}
+
+.tittle_back {
+    background-attachment: fixed;
+    background-image: url(../img/logohtmlcss.png);
+    height: 200px;
+}
+
+.background-size {
+    background-image: url(../img/logohtmlcss.png);
+        background-size: cover;
+        height: 400px;
+}
+
+.background-contain {
+    background-image: url(../img/logohtmlcss.png);
+        background-size: contain;
+        height: 400px;
+}
+
+.background_univerl {
+    background: plum url(../img/logohtmlcss.png) center / 400px no-repeat scroll ;
+    height: 400px;
+}
+
+.background_multi {
+    height: 500px;
+    background: 
+    url("../img/phone.png") center / 100px no-repeat,
+    url("../img/email.png") 0 100px / 160px no-repeat,
+    linear-gradient(90deg, #06d113 10%, #3a3dff 40%, #f75e05 60%);
+                   }
+    

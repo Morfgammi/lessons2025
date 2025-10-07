@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/block.css">
+    <title>css-block</title>
+</head>
+<body>
+    <a href="index.html">на головну</a>
+    <h3>CSS-Властивості блоків</h3>
+   <div class="block">
+    <h2>border (solid, dotted, dashed, double, transparent) </h2>
+    <div class="block_1">solid  рамка елемента повинна бути суцільною </div>
+    <div class="block_2">значення dotted означає "в крапку"</div>
+    <div class="block_3">пунктирний</div>
+    <div class="block_4">подвійна лінія</div>
+    <div class="block_5">прозора колір рамки властивість transparent </div>
+    <div class="block_6">border-top: 30px solid <br>
+    border-right: 20px dashed 
+    border-bottom: 30px dotted 
+    border-left: 10px double </div>
+    <div class="block_7">outline: 10px solid rgb(0, 76, 255);
+    outline-offset: 10px;</div>
+    <div class="block_8">border-radius: 20px 50px 5px 50px;
+    border: 5px solid green;
+    outline: 5px solid red;</div>
+    <div class="block_9">box-shadow: inset 4px 4px 4px 12px #d77777;</div>
+    <div class="block_10">box-shadow:  4px 4px 4px 12px #d77777;</div>
+    </div>
+
+    <div class="box">opacity: 0; прозорість ви його не бачите а він є
+        <div class="box_1"></div>
+        <div class="box_2">opacity: 0.5;</div>
+        <div class="box_3">opacity: 1;</div>
+         <div class="box_4">visibility: hidden; ховає обєкт</div>
+    </div>
+<h2 class="tittle_back">Властивість background
+     background-attachment: fixed;
+</h2>
+    
+
+    <div class="background">
+        <div class="background-image">
+            <h2>Тут буде фон який повторюється </h2>
+        </div>
+      
+         
+         <div class="background-image1">
+            <h2>Тут буде фон який не повторюється background-repeat: no-repeat;</h2>
+        </div>
+<div class="background-repeat-x">
+    <h2>Тут буде фон який  повторюється по вісі х </h2>
+</div>
+<div class="background-repeat-y">
+    <h2>Тут буде фон який  повторюється по вісі y </h2>
+</div>
+
+ <div class="background-image1-right">
+            <h2>background-repeat: no-repeat;
+                background-position: right;
+            </h2>
+        </div>
+    </div>
+    
+     <div class="background-image1-center">
+            <h2>background-repeat: no-repeat;
+                background-position: center;
+            </h2>
+        </div>
+    
+     <div class="background-image1-left">
+            <h2>background-repeat: no-repeat;
+                background-position: left;
+            </h2>
+        </div>
+
+        <div class="background-imag">
+            <h2>background-position: горизонталь вертикаль
+	            background-position: 60px 20px;
+            </h2>
+        </div>
+<h2>background-size: ширина висота <br>
+	background-size: auto auto; (за замовченням) <br>
+	 background-size: 200px;<br>
+	 background-size: auto 200px;<br>
+	background-size: 200px 50px; </h2>
+        <div class="background-size">
+            <h2> background-size: cover; <br>
+                cover - Масштабує зображення зі збереженням пропорцій так, 
+	щоб його ширина або висота дорівнювала ширині або висоті блоку. 
+            </h2>
+        </div>
+
+         <div class="background-contain">
+            <h2> background-size: contain; <br>
+                contain; - Масштабує зображення зі збереженням пропорцій таким чином, 
+	щоб картинка повністю помістилася всередину блоку. 
+            </h2>
+        </div>
+
+        <div class="background_univerl">
+            <h2> універсальнаий запис <br>
+                 background: plum url(../img/logohtmlcss.png) center / 400px no-repeat scroll ;</h2>
+        </div>
+
+        <div class="background_multi">
+            <h2>Мульти фон <br> background: 
+    url("../img/phone.png") center / 100px no-repeat,<br>
+    url("../img/email.png") 0 100px / 160px no-repeat,<br>
+    linear-gradient(90deg, #06d113 10%, #3a3dff 40%, #f75e05 60%);</h2>
+        </div>
+    
+    
+    
+
+</body>
+</html>
