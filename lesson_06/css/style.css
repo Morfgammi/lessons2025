@@ -12,15 +12,17 @@ font-size: 20px;
 }
 
 .furniture_container {
-    max-width: 1920px;
-        margin: 0 auto;
+
 }
 
 .furniture_banner { 
     background-image: url("../img/banerfurnitura.png");
     background-repeat: no-repeat;
-    min-height: 612px;
-    margin-bottom: 30px;
+    min-height: 612px;  
+    padding-bottom: 170px;
+    padding-left: 1014px;
+ padding-top: 114px;
+    
 
 }
 
@@ -30,20 +32,17 @@ span {
         font-size: 96px;
         font-style: normal;
         font-weight: 800;
-        line-height: 100px;/
+        line-height: 100px;
 }
 
-.furniture_block {
-    padding-left: 1014px;
-    padding-top: 114px;
-}
+
 
 .tittle {
     color: #2F302C;
         font-family: Lato;
         font-size: 20px;
         font-weight: 700;
-        line-height: 1.4px;
+        line-height: 1.4;
         margin-bottom: 20px;
      
 }
@@ -64,9 +63,9 @@ span {
         margin-bottom: 36px;
 }
 
-.text {
-    color: #7E7F7C;
-               font-family: Lato, serif;
+.furniture_block p {
+         color: #7E7F7C;
+          font-family: Lato, serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.2;
@@ -85,10 +84,18 @@ padding: 40px;
 }
 
 .list {
+color: #252B42;
+      font-family: Montserrat, sans-serif;
+    font-size: 14px;
+       font-weight: 600;
+    line-height: 1.7; /* 24/14 */
     
+    
+   
 }
 
 .item_on {
+   
     padding-left: 42px;
     background: url("../img/check_on.svg") 0 0 no-repeat;
     margin-bottom: 15px;
