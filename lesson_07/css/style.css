@@ -316,17 +316,11 @@ visibility: hidden;
         line-height: 1.7;
  }
 
-.plan_list> li {
-margin-bottom: 15px;
+
+.plan_list{
+    display: inline-block;
 }
 
-.plan_on {
-   
-   
-}
-li {
-   
-}
  .plan_on::before {
     content: "";
     display: inline-block;
@@ -349,6 +343,9 @@ li {
     }
  
 
+li:not(:last-child) {
+    margin-bottom: 15px;
+}
 
  
 
