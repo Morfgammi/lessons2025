@@ -3,350 +3,208 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
 
 
-
 .homework {
-margin-bottom: 20px;
-text-align: center;
-font-size: 20px;
- line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
-
 .link_name_lesson {
-    font-size: 30px;
     display: inline-block;
+    font-size: 30px;
     border-radius: 20px;
     background-color: rgb(105, 253, 25);
     color: rgb(54, 19, 253);
     padding: 10px;
     margin-left: 20px;
     box-shadow: 0 4px 10px rgba(1, 11, 38, 0.4);
+   
+}
 
-    }
 .link_name_lesson:hover {
-font-size: 30px;
-    display: inline-block;
-    border-radius: 20px;
     background-color: rgb(89, 156, 3);
     color: rgb(24, 3, 141);
     padding: 12px;
-    margin-left: 20px;
-box-shadow: 0 8px 12px rgba(29, 78, 216, .4);}
-
+    box-shadow: 0 8px 12px rgba(29, 78, 216, 0.4);
+}
 
 .block_game_container {
     max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-
-
+    margin: 0 auto 40px;
 }
 
 h2 {
     text-align: left;
     font-size: 40px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .bg_game {
-    background: url("../img/labirint.png") 0 0 no-repeat;
-    background-size: cover;
+    background: url("../img/labirint.png") center / cover no-repeat;
     height: 800px;
     font-size: 0;
     margin-bottom: 40px;
 }
-
-
-
 .items-maus {
     visibility: visible;
     display: inline-block;
     margin-left: 100px;
     width: 100px;
     font-size: 0;
-
-
-
 }
 
-.items-maus:hover + .items-1  {
-     visibility: visible;
-        display: inline-block;
-        background: url("../img/lapa_right.png") 0 0 repeat;
-        background-size: contain;
-        vertical-align: bottom;
-        width: 320px;
-        height: 40px;
-
-
-
-}
-
-
-
-
- .items-1:hover {
-        display: inline-block;
-        background: url("../img/lapa_right.png") 0 0 repeat;
-        background-size: contain;
-        width: 320px;
-        height: 40px;
-        vertical-align: bottom;
-} 
-
- .items-1:hover + .items-2 {
-        visibility: visible;
-        display: block;
-        background: url("../img/lapa_bottom.png") 0 0 repeat;
-        background-size: contain;
-        width: 40px;
-        height: 280px;
-        margin-left: 480px;
- }
-.items-2 {
-    visibility: hidden;
-    display: block;
-    background: url("../img/lapa_bottom.png") 0 0 repeat;
-    background-size: contain;
-    width: 40px;
-    height: 280px;
-    margin-left: 480px;
-}
-
-.items-2:hover {
+.items-maus:hover+.items-1 {
     visibility: visible;
-    display: block;
-    background: url("../img/lapa_bottom.png") 0 0 repeat;
-    background-size: contain;
-    width: 40px;
-    height: 280px;
-    margin-left: 480px;
 }
 
 
-.items-2:hover + .items-3 {
-        visibility: visible;
-        display: block;
-        background: url("../img/lapa_left.png") 0 0 repeat;
-        background-size: contain;
-        width: 300px;
-         height: 40px;
-         margin-left: 220px;
-       
-   }
+.items-1,
+.items-2,
+.items-3,
+.items-4,
+.items-5,
+.items-6,
+.items-7,
+.items-8 {
+    visibility: hidden;
+    background-size: contain;
+}
+
+.items-1,
+.items-5,
+.items-7 {
+    background: url("../img/lapa_right.png") 0 0 repeat;
+    background-size: contain;
+    height: 40px;
+}
 
 .items-3 {
-    visibility: hidden;
-    display: block;
     background: url("../img/lapa_left.png") 0 0 repeat;
     background-size: contain;
-    width: 300px;
     height: 40px;
+}
+
+.items-2,
+.items-4,
+.items-6 {
+    background: url("../img/lapa_bottom.png") 0 0 repeat;
+    background-size: contain;
+}
+
+.items-8 {
+    background: url("../img/chess.png") 0 0 no-repeat;
+    background-size: contain;
+}
+
+
+.items-1 {
+    display: inline-block;
+    width: 320px;
+    vertical-align: bottom;
+}
+
+.items-2 {
+    width: 40px;
+    height: 280px;
+    margin-left: 480px;
+}
+
+.items-3 {
+    width: 300px;
     margin-left: 220px;
 }
 
- .items-3:hover {
-    visibility: visible;
-        display: block;
-        background: url("../img/lapa_left.png") 0 0 repeat;
-        background-size: contain;
-        width: 300px;
-         height: 40px;
-         margin-left: 220px;
- }
-
-
-  .items-3:hover + .items-4 {
-      visibility: visible;
-      display: block;
-    background: url("../img/lapa_bottom.png") 0 0 repeat;
-      background-size: contain;
-      width: 40px;
-      height: 110px;
-      margin-left: 220px;
-  }
-
-  .items-4 {
-      visibility: hidden;
-      display: block;
-    background: url("../img/lapa_bottom.png") 0 0 repeat;
-      background-size: contain;
-      width: 40px;
-      height: 110px;
-      margin-left: 220px;
-  }
-
-        .items-4:hover {
-            visibility: visible;
-            display: block;
-            background: url("../img/lapa_bottom.png") 0 0 repeat;
-            background-size: contain;
-            width: 40px;
-            height: 110px;
-            margin-left: 220px;
-        }
-
-     .items-4:hover + .items-5 {
-                      visibility: visible;
-                      display: block;
-                    background: url("../img/lapa_right.png") 0 0 repeat;
-                      background-size: contain;
-                        width: 200px;
-                        height: 40px;
-                        margin-left: 220px;
-                  }
+.items-4 {
+    width: 40px;
+    height: 110px;
+    margin-left: 220px;
+}
 
 .items-5 {
-    visibility: hidden;
-    display: block;
-    background: url("../img/lapa_right.png") 0 0 repeat;
-    background-size: contain;
     width: 200px;
-    height: 40px;
     margin-left: 220px;
 }
 
-.items-5:hover {
-    visibility: visible;
-    display: block;
-    background: url("../img/lapa_right.png") 0 0 repeat;
-    background-size: contain;
-    width: 200px;
-    height: 40px;
-    margin-left: 220px;
-}
-
-.items-5:hover + .items-6 {
-    visibility: visible;
-    display: block;
-    background: url("../img/lapa_bottom.png") 0 0 repeat;
-    background-size: contain;
+.items-6 {
     width: 40px;
-        height: 80px;
-        margin-left: 380px;
-}
-
-.items-6{
-    visibility: hidden;
-        display: block;
-        background: url("../img/lapa_bottom.png") 0 0 repeat;
-        background-size: contain;
-        width: 40px;
-        height: 80px;
-        margin-left: 380px;
-    }
-
-
-        .items-6:hover {
-            visibility: visible;
-            display: block;
-        background: url("../img/lapa_bottom.png") 0 0 repeat;
-            background-size: contain;
-            width: 40px;
-                height: 80px;
-                margin-left: 380px;
-        }
-
-   .items-6:hover + .items-7 {
-       visibility: visible;
-       display: inline-block;
-    background: url("../img/lapa_right.png") 0 0 repeat;
-       background-size: contain;
-        width: 400px;
-            height: 40px;
-            margin-left: 380px;
-   }
-
-.items-7{
-    visibility: hidden;
-        display: inline-block;
-        background: url("../img/lapa_right.png") 0 0 repeat;
-        background-size: contain;
-        width: 400px;
-        height: 40px;
-        margin-left: 380px;
-}
-
-.items-7:hover {
-    visibility: visible;
-    display: inline-block;
-    background: url("../img/lapa_right.png") 0 0 repeat;
-    background-size: contain;
-    width: 400px;
-    height: 40px;
+    height: 80px;
     margin-left: 380px;
 }
 
-
- .items-7:hover+.items-8 {
-visibility: visible;
+.items-7 {
     display: inline-block;
-    background: url("../img/chess.png") 0 0 no-repeat;
-    background-size: contain;
+    width: 400px;
+    margin-left: 380px;
+}
+
+.items-8 {
+    display: inline-block;
     width: 100px;
     height: 40px;
- }
+}
 
 
- .items-8{
-visibility: hidden;
-    display: inline-block;
-    background: url("../img/chess.png") 0 0 no-repeat;
+.items-1:hover,
+.items-2:hover,
+.items-3:hover,
+.items-4:hover,
+.items-5:hover,
+.items-6:hover,
+.items-7:hover,
+.items-8:hover {
+    visibility: visible;
+}
+
+
+.items-1:hover+.items-2,
+.items-2:hover+.items-3,
+.items-3:hover+.items-4,
+.items-4:hover+.items-5,
+.items-5:hover+.items-6,
+.items-6:hover+.items-7,
+.items-7:hover+.items-8 {
+    visibility: visible;
+}
+
+.items-8:hover {
+    background: url("../img/maus-finish.png") 0 0 no-repeat;
     background-size: contain;
-    width: 100px;
-    height: 40px;
-    
- }
-
- .items-8:hover {
-     visibility: visible;
-     display: inline-block;
-     background: url("../img/maus-finish.png") 0 0 no-repeat;
-     background-size: contain;
     width: 200px;
-      height: 200px;
- }
+    height: 200px;
+}
 
- .plan_card {
-       
+.plan_card {
+    display: inline-block;
     color: #252B42;
-        font-family: Montserrat, sans-serif;
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 1.7;
- }
-
-
-.plan_list{
-    display: inline-block;
-}
-
- .plan_on::before {
-    content: "";
-    display: inline-block;
-    padding-left: 42px;
-    background: url("../img/check_on.svg") 0 0 no-repeat;
-    min-height: 32px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
     line-height: 1.7;
-    vertical-align: middle;
-            
 }
 
- .plan_off::before {
-        content: "";
-        display: inline-block;
-        padding-left: 42px;
-        background: url("../img/check_off.svg") 0 0 no-repeat;
-        min-height: 32px;
-        line-height: 1.7;
-        vertical-align: middle;
-    }
- 
-
-li:not(:last-child) {
+.plan_list li:not(:last-child) {
     margin-bottom: 15px;
 }
 
- 
+
+.plan_list li::before {
+    content: "";
+    display: inline-block;
+    padding-left: 42px;
+    min-height: 32px;
+    line-height: 1.7;
+    vertical-align: middle;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 
+.plan_on::before {
+    background-image: url("../img/check_on.svg");
+}
+
+.plan_off::before {
+    background-image: url("../img/check_off.svg");
+}
