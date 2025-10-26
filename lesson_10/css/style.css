@@ -1,0 +1,387 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    overflow: clip;
+}
+
+[class*="__container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #272a0120;
+    z-index: 10;
+}
+
+.menu__body {
+    background-color: rgb(128, 138, 249);
+}
+
+.menu__submenu,
+.submenu__subsub-menu {
+    z-index: 11;
+}
+
+.menu__list {
+    text-align: center;
+    font-size: 0;
+    
+}
+
+.menu__item {
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.menu__item:hover .menu__link {
+    color: rgb(43, 52, 226);
+    background-color: rgb(0, 187, 187);
+    text-decoration: underline;
+}
+
+.menu__item:hover .menu__submenu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.menu__link {
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.3s;
+    border-radius: 15px 15px 0 0;
+}
+
+.menu__link--icon {
+    position: relative;
+    padding-right: 30px;
+    
+}
+
+.menu__link--icon::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    min-height: 15px;
+    min-width: 15px;
+    background: url("../img/arrow.svg") 0 0 / 100% no-repeat;
+    transition: all 0.3s;
+}
+
+.menu__link--icon:hover::after {
+    transform: rotate(-45deg);
+}
+
+
+
+.menu__submenu {
+    font-size: 20px;
+    background-color: rgb(0, 187, 187);
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.menu__item:hover .menu__link--icon::after {
+    transform: rotate(-45deg);
+}
+
+.submenu {
+    width: 130px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 0px 15px 0 15px;
+}
+
+.submenu__item:not(:last-child) {
+    padding-bottom: 10px;
+}
+
+.submenu__link:hover {
+    text-decoration: underline;
+    color: rgb(43, 52, 226);
+}
+
+.subsub-menu__item:not(:last-child) {
+    padding-bottom: 10px;
+}
+
+.subsub-menu {
+    width: 220px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 0px 15px 0 15px;
+    position: relative;
+    
+}
+
+.submenu__item--icon:hover .submenu__subsub-menu {
+    background-color: rgb(0, 187, 187);
+    position: absolute;
+    top: 60px;
+    left: 100%;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s;
+    
+}
+
+.submenu__subsub-menu {
+    position: absolute;
+    top: 60px;
+    left: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    
+}
+
+.subsub-menu__link:hover {
+    text-decoration: underline;
+    transition: all 0.1s;
+    color: rgb(43, 52, 226);
+    
+}
+
+.submenu__link--icon::after {
+    content: "";
+    position: absolute;
+    top: 48%;
+    right: 0px;
+    min-height: 15px;
+    min-width: 15px;
+    background: url("../img/arrow.svg") 0 0 / 100% no-repeat;
+    transition: all 0.3s;
+    transform: rotate(-90deg);
+    
+}
+
+.submenu__item--icon:hover .submenu__link--icon::after  {
+    transform: rotate(-45deg);
+    transition: all 0.3s;
+}
+
+
+.main__block-1 {
+    position: sticky;
+    top: 40px;
+    color: darkblue;
+    background-color: rgb(117, 175, 35);
+    text-align: center;
+    font-size: 40px;
+    z-index: 2;
+    
+}
+
+.main__block-2 {
+    position: sticky;
+    top: 40px;
+    color: darkblue;
+    background-color: rgb(113, 81, 198);
+    text-align: center;
+    font-size: 40px;
+    z-index: 3;
+
+}
+
+.main__block-3 {
+    position: sticky;
+    top: 40px;
+    color: darkblue;
+    background-color: rgb(0, 89, 92);
+    text-align: center;
+    font-size: 40px;
+    z-index: 4;
+   
+}
+
+.main__text{
+    margin-bottom: 30px;
+}
+
+ 
+.main__card {
+    margin: 20px;
+  
+    
+}
+
+.main__list {
+    color:  #252B42;
+        font-family: Montserrat, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.7;
+            
+    }
+
+.main__list li{
+padding-bottom: 10px;
+}
+
+ 
+
+.main__on--green{
+position: relative;
+padding-left: 18px;
+
+}
+
+.main__on--green::after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -20px;
+    background-image: url("../img/check_on.svg");
+    min-height: 32px;
+    min-width: 32px;
+    background-position: 0 0;
+     background-repeat: no-repeat;
+     background-size: contain;
+}
+
+ 
+
+.main__off--grey {
+    position: relative;
+    padding-left: 18px;
+   }
+
+     
+
+     .main__off--grey::after {
+            content: "";
+            position: absolute;
+            top: -6px;
+            left: -20px;
+            background-image: url("../img/check_off.svg");
+            min-height: 32px;
+            min-width: 32px;
+                                  
+        }
+ 
+
+.cards__container{
+    max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+}
+
+.cards__items {
+    margin-bottom: 20px;
+text-align: center;
+font-size: 0;
+}
+
+.cards__image {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+        
+}
+
+.image:not(:last-child){
+    margin-right:123px ;
+}
+
+.image__box {
+    position: relative;
+    overflow: hidden;
+}
+
+.image__img {
+    position: relative;
+    display: block;
+}
+
+.image__face {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image__img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.image__img:hover::after {
+    opacity: 0.6;
+    
+}
+
+.image__title {
+ 
+        position: absolute;
+        top: 40%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 24px;
+    }
+
+
+ 
+
+.image__link {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.image__title,
+.image__link {
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+
+.image__box:hover .image__title,
+.image__box:hover .image__link {
+    opacity: 1;
+}
+
+.image__img:hover::after {
+    opacity: 0.6;
+}
+
+.image__box:hover .image__img::after {
+    opacity: 0.6;
+}
+
+.image__link a {
+    text-decoration: none;
+    color: white;
+    transition: text-decoration 0.2s;
+}
+
+.image__link a:hover {
+    text-decoration: underline;
+}
