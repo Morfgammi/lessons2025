@@ -1,0 +1,148 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+	font-family: "Lato", sans-serif;
+	background: #fff;
+	color: #2f302c;
+}
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper>main {
+	flex-grow: 1;
+}
+
+[class*="__container"] {
+	max-width: 1392px;
+	margin: 0 auto;
+}
+
+.page__featured,
+.section-why__title {
+	text-align: center;
+	color: #2f302c;
+	font-family: Lato;
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 1.2;
+	margin-bottom: 72px;
+}
+
+.page__items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 36px;
+	row-gap: 72px;
+	text-align: center;
+	margin-bottom: 76px;
+}
+
+.page__item:hover {
+	color: #7e7e7e;
+	outline: 1px solid;
+	transition: color 0.1s;
+}
+
+.item-products {
+	flex: 1 1 420px;
+	display: flex;
+	flex-direction: column;
+}
+
+.item-products__link-image {
+	display: block;
+	margin-bottom: 32px;
+}
+
+.item-products__body {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.item-products__body>*:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+.item-products__title {
+	color: #2f302c;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.2;
+	flex-grow: 1;
+}
+
+.item-products__link-title:hover {
+	text-decoration: underline;
+	transition: all 0.3s;
+}
+
+.item-products__price {
+	color: #2f302c;
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 1.4;
+}
+
+.item-products__rating::before {
+	content: "";
+	display: inline-block;
+	width: 80px;
+	min-height: 16px;
+	background-image: url("../img/star.svg");
+	background-repeat: repeat-x;
+}
+
+.section-why {
+	text-align: center;
+}
+
+.section-why__container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.section-why__items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 68px;
+}
+
+.section-why__item {
+	flex: 1 1 340px;
+}
+
+.card-why__icon {
+	min-height: 60px;
+}
+
+.card-why__title {
+	color: #2f302c;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.card-why__text {
+	color: #7e7f7c;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.6;
+}
+
+.card-why>*:not(:last-child) {
+	margin-bottom: 24px;
+}
