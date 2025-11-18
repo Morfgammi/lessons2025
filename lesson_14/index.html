@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Lesson 14</title>
+</head>
+<body>
+  <div class="wrapper">
+    <main class="page">
+      <div class="page__container">
+        <header class="page__header register">
+          <h1 class="register__title">REGISTER TO FURNITUR</h1>
+          <p class="register__subtitle">GET MONTHLY VOUCHER WITH JUST ONE CLICK!</p>
+        </header>
+
+        <div class="register-content">
+          <div class="register-form">
+            <h2 class="register-form__title">YOUR INFORMATION</h2>
+           <p class="register-form__signin">
+            You already have an account?
+           <a class="register-form__link" href="#">Sign in here</a>
+            </p>
+
+            <form method="get" action="#" enctype="multipart/form-data" class="register-form__body">
+              <div class="register-form__row">
+                <div class="register-form__group">
+                  <input type="text" name="form[]" class="register-form__input" placeholder="Your name">
+                </div>
+                <div class="register-form__group">
+                  <input type="email" name="form[]" class="register-form__input" placeholder="E-mail">
+                </div>
+              </div>
+
+              <div class="register-form__row">
+                <div class="register-form__group">
+                  <input type="tel" name="form[]" class="register-form__input register-form__input--big-width" id="phone" placeholder="Phone number">
+                </div>
+              </div>
+
+              <div class="register-form__row">
+                <div class="register-form__group">
+                  <input type="password" name="form[]" class="register-form__input" id="password" placeholder="Password">
+                </div>
+                <div class="register-form__group">
+                  <input type="password" name="form[]" class="register-form__input" id="reset-password" placeholder="Reset Password">
+                </div>
+              </div>
+
+              <div class="register-form__actions">
+                <button type="submit" class="register-form__button" >Create an account</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-card__content">
+              <span class="offer-card__badge">HOT</span>
+              <p class="offer-card__text">
+                DISCOUNT<br>
+                25% FOR<br>
+                NEW<br>
+                MEMBER
+              </p>
+            </div>
+
+            <div class="offer-card__image">
+              <div class="offer-card__lamp">
+                <img src="img/lamp.png" alt="lamp">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      FOOTER
+    </footer>
+  </div>
+</body>
+</html>

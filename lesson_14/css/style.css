@@ -1,0 +1,215 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper>main {
+	flex-grow: 1;
+}
+
+.page {
+	padding: 25px;
+}
+
+[class*="__container"] {
+	max-width: 1392px;
+	margin: 0 auto;
+}
+
+.page__header {
+	text-align: center;
+	margin-bottom: 82px;
+	font-family: Lato, sans-serif;
+}
+
+.register__title {
+	color: #2F302C;
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 1.25;
+}
+
+.register__subtitle {
+	color: #7E7F7C;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.25;
+}
+
+.register-content {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 80px;
+}
+
+
+
+.register-form {
+	max-width: 712px;
+	width: 100%;
+}
+
+.register-form__title {
+	color: #2F302C;
+	font-family: Lato;
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 1.25;
+	margin-bottom: 36px;
+}
+
+.register-form__signin {
+	color: #7E7F7C;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.25;
+}
+
+.register-form__link {
+	color: #2F302C;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+	text-decoration-line: underline;
+}
+
+.register-form__link:hover {
+	color: #0010c2;
+}
+
+.register-form__body {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	color: #7E7F7C;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.25;
+	margin-top: 72px;
+}
+
+
+
+.register-form__row {
+	display: flex;
+	gap: 40px;
+}
+
+
+.register-form__actions {
+	margin-top: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.register-form__input {
+	border-bottom: 1px solid #D4D4D4;
+	padding: 12px 0;
+	font-size: 16px;
+	width: 336px;
+	outline: none;
+}
+
+
+
+.register-form__input:focus {
+	border-bottom: 1px solid #000000;
+	transition: all 0.2s;
+}
+
+.register-form__input--big-width {
+	width: 712px;
+}
+
+.register-form__button {
+	display: flex;
+	width: 336px;
+	padding: 12px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	background: #2F302C;
+	color: #FFF;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.25;
+	transition: all 0.3s;
+}
+
+.register-form__button:hover {
+	background: #bbbbbb;
+	color: #2F302C;
+}
+
+.offer-card {
+	position: relative;
+	max-width: 600px;
+	min-height: 496px;
+	width: 100%;
+	background: #F6F6F6;
+}
+
+.offer-card__content {
+	position: absolute;
+	left: 80px;
+	top: 228px;
+}
+
+.offer-card__badge {
+	display: inline-block;
+	color: #FFF;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.25;
+	border-radius: 4px;
+	background: #CE0000;
+	padding: 4px 8px;
+	margin-bottom: 24px;
+}
+
+.offer-card__text {
+	color: #2F302C;
+	font-family: Lato;
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 1.25;
+}
+
+.offer-card__image {
+	position: relative;
+}
+
+.offer-card__lamp {
+	position: absolute;
+	right: 50px;
+	top: 0;
+}
